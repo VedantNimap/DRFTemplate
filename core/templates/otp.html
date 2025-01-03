@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .table-border{
+            border: 1px solid black;
+        }
+        table {
+            border-collapse: collapse;
+            width: max-content !important;
+            font-size: 12px;
+            overflow: auto;
+          }
+          
+          th{
+            text-align: center !important;
+            padding: 5px;
+            border: 1px solid black;
+            background: #0000000d;
+        }
+          td {
+            text-align: center !important;
+            padding: 5px;
+            border: 1px solid black;
+          }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p>Your Otp is {{ otp }}      
+    </div>
+
+</body>
+</html>

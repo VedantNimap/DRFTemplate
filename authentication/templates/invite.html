@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invite</title>
+</head>
+<body style="font-family: 'Arial', sans-serif;">
+
+    <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
+
+        <h2>User Invite</h2>
+
+        <p>Hello, {{ user }}</p>
+
+        <p>You have been invited to join mAudit.Click the link below to proceed.</p>
+
+        <p>
+            <a href="{{ link }}" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: #ffffff; text-decoration: none; border-radius: 5px;">Join</a>
+        </p>
+
+        <p>If you're having trouble clicking the "Join" button, copy and paste the following URL into your browser:</p>
+        <p>{{ link }}</p>
+
+        <p>Thank you,<br>mAudit Team</p>
+
+    </div>
+
+</body>
+</html>
