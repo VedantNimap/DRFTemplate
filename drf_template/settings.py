@@ -80,7 +80,7 @@ REST_FRAMEWORK = {
 CORS_ORIGIN_ALLOW_ALL = True
 
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'My Personal Website',
+    'TITLE': 'Your Title',
     'DESCRIPTION': 'All APIs Documentation',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
